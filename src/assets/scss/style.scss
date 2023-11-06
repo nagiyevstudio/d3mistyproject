@@ -1,0 +1,44 @@
+@import "vars";
+
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: $b;
+    font-size: 1.4rem;
+    color: $w;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section {
+    &__header {
+        font-size: 3.6rem;
+        font-weight: 800;
+        color: $w;
+        &-text {
+            color: $red;
+            text-decoration: none;
+            @include tall;
+            &:hover {
+                color: orange;
+            }
+        }
+    }
+}
+
+.show {
+    margin-top: 10px;
+    border-radius: 16px;
+    background: rgba($b, 0.9);
+}
+
+
+@import "blocks/header";
+@import "blocks/slider";
+@import "blocks/news";
+@import "blocks/albums";
+@import "blocks/album";
+@import "blocks/videos";
+@import "blocks/footer";

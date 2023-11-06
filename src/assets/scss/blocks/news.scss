@@ -1,0 +1,43 @@
+.news {
+    margin-top: 10rem;
+
+    &__card {
+        padding: 1.5rem;
+    }
+
+    &__inner {
+        border-radius: 2rem;
+        overflow: hidden;
+        padding: 0;
+    }
+
+    &__img {
+        width: 100%;
+    }
+
+    &__content {
+        padding: 2rem;
+        background: #232323;
+        border-bottom-left-radius: 2rem;
+        border-bottom-right-radius: 2rem;
+    }
+
+    &__title {
+        color: $w;
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+
+    &__more {
+        padding: 1rem;
+        border-radius: 0.5rem;
+        color: $red;
+        text-decoration: none;
+        text-transform: uppercase;
+        @include tall;
+        &:hover {
+            color: $red;
+            background-color: $b;
+        }
+    }
+}

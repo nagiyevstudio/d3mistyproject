@@ -1,0 +1,75 @@
+.album {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+
+    &__cover {
+        max-width: 45rem;
+        border-radius: 2rem;
+        overflow: hidden;
+
+        & img {
+            width: 100%;
+        }
+    }
+
+    &__title {
+        font-size: 36px;
+        color: $w;
+        font-weight: 700;
+        margin-bottom: 3rem;
+    }
+
+    &__year {
+        color: $lgray;
+        font-size: 18px;
+        margin-bottom: 3rem;
+    }
+
+    &__text {
+        color: $w;
+        font-size: 18px;
+    }
+
+    &__track {
+        &-number {
+            margin-right: 2.5rem;
+            width: 70px;
+            height: 70px;
+            border-radius: 10px;
+            background: rgba(217, 217, 217, 0.05);
+            & p {
+                font-size: 3.6rem;
+                font-weight: 700;
+                color: $w;
+                line-height: 70px;
+                margin-bottom: 0;
+            }
+        }
+
+        &-name {
+            font-size: 2rem;
+            font-weight: 700;
+        }
+
+        &-alb {
+            font-size: 1.43rem;
+            color: $lgray;
+            & a {
+                text-decoration: none;
+                color: $red;
+                @include tall;
+                &:hover {
+                    color: orange;
+                }
+            }
+        }
+
+        &-misc {
+            font-size: 1.3rem;
+            color: $lgray;
+            & span {
+                color: $w;
+            }
+        }
+    }
+}

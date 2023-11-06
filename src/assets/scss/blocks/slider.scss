@@ -1,0 +1,40 @@
+.slider {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-top: 6rem;
+
+    &__header {
+        font-size: 7.2rem;
+        font-weight: 800;
+        letter-spacing: -0.3rem;
+    }
+
+    &__text {
+        font-size: 1.8rem;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+
+
+    &__knopka {
+        
+        width: 120px;
+        padding: 10px 15px 10px 30px;
+        text-decoration: none;
+        color: $w;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 1.8rem;
+        border-radius: 30px;
+        background: $red;
+        margin-bottom: 40px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        transition: 0.4s all;
+
+        &:hover {
+            background: red;
+            box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.25);
+        }
+    }
+}

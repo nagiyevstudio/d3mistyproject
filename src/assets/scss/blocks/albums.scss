@@ -1,0 +1,42 @@
+.albums {
+    background-color: $gray;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    
+    &-page {
+        background-color: transparent;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    &__inner {
+        padding: 2rem;
+        text-align: center;
+    }
+
+    &__cover {
+        width: 100%;
+        border-radius: 2rem;
+        overflow: hidden;
+        box-shadow: 0px 0px 1px 0px rgba($b,0.5);
+        @include tall;
+
+        &:hover {
+            box-shadow: 0px 0px 30px 0px rgba($b,0.9);
+            transform: translateY(-10px);
+        }
+    }
+
+    &__title {
+        color: $w;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    &__year {
+        color: $lgray;
+        font-size: 1.4rem;
+    }
+}
