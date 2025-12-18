@@ -14,19 +14,19 @@
 
     &__title {
         font-size: 36px;
-        color: $w;
+        color: $color-white;
         font-weight: 700;
         margin-bottom: 3rem;
     }
 
     &__year {
-        color: $lgray;
+        color: $color-gray-light;
         font-size: 18px;
         margin-bottom: 3rem;
     }
 
     &__text {
-        color: $w;
+        color: $color-white;
         font-size: 18px;
     }
 
@@ -40,7 +40,7 @@
             & p {
                 font-size: 3.6rem;
                 font-weight: 700;
-                color: $w;
+                color: $color-white;
                 line-height: 70px;
                 margin-bottom: 0;
             }
@@ -53,11 +53,11 @@
 
         &-alb {
             font-size: 1.43rem;
-            color: $lgray;
+            color: $color-gray-light;
             & a {
                 text-decoration: none;
-                color: $red;
-                @include tall;
+                color: $color-accent;
+                @include transition-default;
                 &:hover {
                     color: orange;
                 }
@@ -66,9 +66,9 @@
 
         &-misc {
             font-size: 1.3rem;
-            color: $lgray;
+            color: $color-gray-light;
             & span {
-                color: $w;
+                color: $color-white;
             }
         }
     }

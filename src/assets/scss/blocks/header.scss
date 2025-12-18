@@ -6,17 +6,17 @@
     &__link {
         padding: 20px;
         text-decoration: none;
-        color: $w;
+        color: $color-white;
         font-weight: 600;
         font-size: 2rem;
-        @include tall;
+        @include transition-default;
 
         &:hover {
-            color: $red;
-            text-shadow: 0 0 5px $red,
-                         0 0 25px $red,
-                         0 0 50px $red,
-                         0 0 100px $red;
+            color: $color-accent;
+            text-shadow: 0 0 5px $color-accent,
+                         0 0 25px $color-accent,
+                         0 0 50px $color-accent,
+                         0 0 100px $color-accent;
         }
     }
 }
@@ -26,7 +26,7 @@
 }
 
 nav.navbar.scrolled {
-    background-color: rgba($b, 0.8);
+    background-color: rgba($color-bg, 0.8);
     transition: background-color 0.3s ease-in-out;
 }
 

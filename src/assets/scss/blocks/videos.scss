@@ -1,5 +1,5 @@
 .videos {
-    background-color: $b;
+    background-color: $color-bg;
     margin-bottom: 10rem;
 
     &__img {
@@ -18,14 +18,14 @@
     }
 
     &__title {
-        color: $w;
+        color: $color-white;
         text-decoration: none;
         font-size: 18px;
         font-weight: 700;
-        @include tall;
+        @include transition-default;
 
         &:hover {
-            color: $red;
+            color: $color-accent;
         }
     }
 }

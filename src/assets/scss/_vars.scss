@@ -1,9 +1,9 @@
-$b: #191719;
-$red: #FD746C;
-$gray: #282628;
-$lgray: #808080;
-$w: #fff;
+$color-bg: #191719;
+$color-accent: #FD746C;
+$color-gray-dark: #282628;
+$color-gray-light: #808080;
+$color-white: #fff;
 
-@mixin tall {
+@mixin transition-default {
     transition: 0.4s all;
 }

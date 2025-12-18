@@ -1,5 +1,5 @@
 .albums {
-    background-color: $gray;
+    background-color: $color-gray-dark;
     margin-top: 10rem;
     margin-bottom: 10rem;
     padding-top: 10rem;
@@ -20,23 +20,23 @@
         width: 100%;
         border-radius: 2rem;
         overflow: hidden;
-        box-shadow: 0px 0px 1px 0px rgba($b,0.5);
-        @include tall;
+        box-shadow: 0px 0px 1px 0px rgba($color-bg,0.5);
+        @include transition-default;
 
         &:hover {
-            box-shadow: 0px 0px 30px 0px rgba($b,0.9);
+            box-shadow: 0px 0px 30px 0px rgba($color-bg,0.9);
             transform: translateY(-10px);
         }
     }
 
     &__title {
-        color: $w;
+        color: $color-white;
         font-size: 2rem;
         font-weight: 700;
     }
 
     &__year {
-        color: $lgray;
+        color: $color-gray-light;
         font-size: 1.4rem;
     }
 }

@@ -6,9 +6,9 @@ html {
 }
 
 body {
-    background-color: $b;
+    background-color: $color-bg;
     font-size: 1.4rem;
-    color: $w;
+    color: $color-white;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -16,11 +16,11 @@ body {
     &__header {
         font-size: 3.6rem;
         font-weight: 800;
-        color: $w;
+        color: $color-white;
         &-text {
-            color: $red;
+            color: $color-accent;
             text-decoration: none;
-            @include tall;
+            @include transition-default;
             &:hover {
                 color: orange;
             }
@@ -31,13 +31,12 @@ body {
 .show {
     margin-top: 10px;
     border-radius: 16px;
-    background: rgba($b, 0.9);
+    background: rgba($color-bg, 0.9);
 }
 
 
 @import "blocks/header";
 @import "blocks/slider";
-@import "blocks/news";
 @import "blocks/albums";
 @import "blocks/album";
 @import "blocks/videos";

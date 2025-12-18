@@ -1,27 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-
-
+    
+    
     <!-- Useful meta tags -->
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="robots" content="index, follow">
     <meta name="google" content="notranslate">
     <meta name="format-detection" content="telephone=no">
-    <meta name="description" content="">
-
+    <meta name="description" content="D3 Misty Project's Official Website">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="D3 Misty Project | Loose Control... (2001-2002)">
+    <meta property="og:description" content="D3 Misty Project's Official Website">
+    <meta property="og:image" content="assets/images/slider/01.jpg">
+    <meta property="og:type" content="website">
+    
+    <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    
+    <!-- Base style -->
     <link rel="stylesheet" href="assets/css/style.min.css">
-
+    
+    <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
@@ -31,341 +39,275 @@
     <meta name="msapplication-TileColor" content="#ffc40d">
     <meta name="msapplication-config" content="assets/images/favicon/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
-
+    
     <title>D3 Misty Project | Loose Control... (2001-2002)</title>
 </head>
-
 <body>
 
-    <header class="header">
-        <nav id="navbar" class="navbar navbar-expand-lg navbar-light fixed-top p-4">
-            <div class="container d-flex justify-content-between py-3">
-                <a class="navbar-brand" href="index.html">
-                    <img src="assets/images/d3logo.svg" alt="D3 Misty Project">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav">
-
-                        <li class="nav-item mx-3">
-                            <a class="menu__link nav-link" href="index.html#news">NEWS</a>
-                        </li>
-                        <li class="nav-item mx-3">
-                            <a class="menu__link nav-link" href="albums.html">ALBUMS</a>
-                        </li>
-                        <li class="nav-item mx-3">
-                            <a class="menu__link nav-link" href="singles.html">SINGLES</a>
-                        </li>
-                        <li class="nav-item mx-3">
-                            <a class="menu__link nav-link" href="index.html#videos">VIDEOS</a>
-                        </li>
-                    </ul>
+        <header class="header">
+            <nav id="navbar" class="navbar navbar-expand-lg navbar-light fixed-top p-4">
+                <div class="container d-flex justify-content-between py-3">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="assets/images/d3logo.svg" alt="D3 Misty Project">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+        
+                            <li class="nav-item mx-3">
+                                <a class="menu__link nav-link" href="index.html#news">NEWS</a>
+                            </li>
+                            <li class="nav-item mx-3">
+                                <a class="menu__link nav-link" href="albums.html">ALBUMS</a>
+                            </li>
+                            <li class="nav-item mx-3">
+                                <a class="menu__link nav-link" href="singles.html">SINGLES</a>
+                            </li>
+                            <li class="nav-item mx-3">
+                                <a class="menu__link nav-link" href="index.html#videos">VIDEOS</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>
-    </header>
-    <main class="main">
-
+            </nav>
+        </header>    <main class="main">
+        
         <section class="album">
             <div class="container">
-
+        
                 <div class="row pb-5">
                     <div class="col-md-5 p-5">
                         <div class="album__cover">
                             <img src="assets/images/albums/03.jpg" alt="Loose Control...">
                         </div>
                     </div>
-
+        
                     <div class="col-md-7 p-5">
                         <div class="album__content">
                             <h2 class="album__title">Loose Control...</h2>
                             <p class="album__year">2001-2002</p>
                             <p class="album__text">
-                                D3's third album, "Loose Control" (2001-2002), marks a significant evolution in the
-                                group's musical journey. Initiated in 2001, this project stands out from its
-                                predecessors by embracing a more classical style, thereby defining the unique sound of
-                                D3. The album features unforgettable compositions such as "Last Millennium's Music", "On
-                                the way from India to China", and the grand "Long Expected (QUAT)", each contributing to
-                                the album's distinct character. While the classical influence was hinted at in the
-                                second project with the composition "Flying Dreams", it is "Last Millennium's Music", a
-                                song written in honor of a departing era, that truly heralds the onset of classical
-                                elements in D3's music. The lyrics of "Long Expected (QUAT)" encapsulate the album's
-                                spirit, reflecting on the passing days and the dreams and wishes that drive us, all
-                                leading to the long-expected moment of revelation.
+                                D3's third album, "Loose Control" (2001-2002), marks a significant evolution in the group's musical journey. Initiated in 2001, this project stands out from its predecessors by embracing a more classical style, thereby defining the unique sound of D3. The album features unforgettable compositions such as "Last Millennium's Music", "On the way from India to China", and the grand "Long Expected (QUAT)", each contributing to the album's distinct character. While the classical influence was hinted at in the second project with the composition "Flying Dreams", it is "Last Millennium's Music", a song written in honor of a departing era, that truly heralds the onset of classical elements in D3's music. The lyrics of "Long Expected (QUAT)" encapsulate the album's spirit, reflecting on the passing days and the dreams and wishes that drive us, all leading to the long-expected moment of revelation.
                             </p>
                         </div>
                     </div>
                 </div>
-
+        
                 <!-- Tracklist -->
-
+                
                 <div class="row mt-5">
-
+        
                     <div class="col-12 col-md-6 mb-5">
                         <div class="album__track d-flex justify-content-start">
-                            <div class="album__track-number d-flex justify-content-center align-items-center">
-                                <p>1</p>
-                            </div>
+                            <div class="album__track-number d-flex justify-content-center align-items-center"><p>1</p></div>
                             <div class="">
                                 <div class="album__track-name">Long Expected (QUAT)</div>
-                                <div class="album__track-misc">Autors: <span>irony, fly</span> <br> Create date:
-                                    <span>2001</span></div>
+                                <div class="album__track-misc">Autors: <span>irony, fly</span> <br> Create date: <span>2001</span></div>
                             </div>
                         </div>
                     </div>
-
+        
                     <div class="col-12 col-md-6 mb-5">
                         <div class="album__track d-flex justify-content-start">
-                            <div class="album__track-number d-flex justify-content-center align-items-center">
-                                <p>2</p>
-                            </div>
+                            <div class="album__track-number d-flex justify-content-center align-items-center"><p>2</p></div>
                             <div class="">
                                 <div class="album__track-name">Devil's beat</div>
-                                <div class="album__track-misc">Autors: <span>irony, fly</span> <br> Create date:
-                                    <span>2002</span></div>
+                                <div class="album__track-misc">Autors: <span>irony, fly</span> <br> Create date: <span>2002</span></div>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-6 mb-5">
                         <div class="album__track d-flex justify-content-start">
-                            <div class="album__track-number d-flex justify-content-center align-items-center">
-                                <p>3</p>
-                            </div>
+                            <div class="album__track-number d-flex justify-content-center align-items-center"><p>3</p></div>
                             <div class="">
                                 <div class="album__track-name">Rock of Irony</div>
-                                <div class="album__track-misc">Autors: <span>irony, fly</span> <br> Create date:
-                                    <span>2001</span></div>
+                                <div class="album__track-misc">Autors: <span>irony, fly</span> <br> Create date: <span>2001</span></div>
                             </div>
                         </div>
                     </div>
-
+        
                     <div class="col-12 col-md-6 mb-5">
                         <div class="album__track d-flex justify-content-start">
-                            <div class="album__track-number d-flex justify-content-center align-items-center">
-                                <p>4</p>
-                            </div>
+                            <div class="album__track-number d-flex justify-content-center align-items-center"><p>4</p></div>
                             <div class="">
                                 <div class="album__track-name">D3 Jam I.F.</div>
-                                <div class="album__track-misc">Autors: <span>irony, fly</span> <br> Create date:
-                                    <span>2001</span></div>
+                                <div class="album__track-misc">Autors: <span>irony, fly</span> <br> Create date: <span>2001</span></div>
                             </div>
                         </div>
                     </div>
-
+        
                     <div class="col-12 col-md-6 mb-5">
                         <div class="album__track d-flex justify-content-start">
-                            <div class="album__track-number d-flex justify-content-center align-items-center">
-                                <p>5</p>
-                            </div>
+                            <div class="album__track-number d-flex justify-content-center align-items-center"><p>5</p></div>
                             <div class="">
                                 <div class="album__track-name">Last Millennium's Music</div>
-                                <div class="album__track-misc">Autors: <span>irony</span> <br> Create date:
-                                    <span>2001</span></div>
+                                <div class="album__track-misc">Autors: <span>irony</span> <br> Create date: <span>2001</span></div>
                             </div>
                         </div>
                     </div>
-
+        
                     <div class="col-12 col-md-6 mb-5">
                         <div class="album__track d-flex justify-content-start">
-                            <div class="album__track-number d-flex justify-content-center align-items-center">
-                                <p>6</p>
-                            </div>
+                            <div class="album__track-number d-flex justify-content-center align-items-center"><p>6</p></div>
                             <div class="">
                                 <div class="album__track-name">Headlong</div>
-                                <div class="album__track-misc">Autors: <span>irony</span> <br> Create date:
-                                    <span>2002</span></div>
+                                <div class="album__track-misc">Autors: <span>irony</span> <br> Create date: <span>2002</span></div>
                             </div>
                         </div>
                     </div>
-
+        
                     <div class="col-12 col-md-6 mb-5">
                         <div class="album__track d-flex justify-content-start">
-                            <div class="album__track-number d-flex justify-content-center align-items-center">
-                                <p>7</p>
-                            </div>
+                            <div class="album__track-number d-flex justify-content-center align-items-center"><p>7</p></div>
                             <div class="">
                                 <div class="album__track-name">Sleep is Continue (Sleep 4 a Long Time)</div>
-                                <div class="album__track-misc">Autors: <span>irony</span> <br> Create date:
-                                    <span>2001</span></div>
+                                <div class="album__track-misc">Autors: <span>irony</span> <br> Create date: <span>2001</span></div>
                             </div>
                         </div>
                     </div>
-
+        
                     <div class="col-12 col-md-6 mb-5">
                         <div class="album__track d-flex justify-content-start">
-                            <div class="album__track-number d-flex justify-content-center align-items-center">
-                                <p>8</p>
-                            </div>
+                            <div class="album__track-number d-flex justify-content-center align-items-center"><p>8</p></div>
                             <div class="">
                                 <div class="album__track-name">On the way from India to China</div>
-                                <div class="album__track-misc">Autors: <span>irony, fly</span> <br> Create date:
-                                    <span>2001</span></div>
+                                <div class="album__track-misc">Autors: <span>irony, fly</span> <br> Create date: <span>2001</span></div>
                             </div>
                         </div>
                     </div>
-
+        
                     <div class="col-12 col-md-6 mb-5">
                         <div class="album__track d-flex justify-content-start">
-                            <div class="album__track-number d-flex justify-content-center align-items-center">
-                                <p>9</p>
-                            </div>
+                            <div class="album__track-number d-flex justify-content-center align-items-center"><p>9</p></div>
                             <div class="">
                                 <div class="album__track-name">Long Ago (D3 Party Mix)</div>
-                                <div class="album__track-misc">Autors: <span>irony, fly</span> <br> Create date:
-                                    <span>2001</span></div>
+                                <div class="album__track-misc">Autors: <span>irony, fly</span> <br> Create date: <span>2001</span></div>
                             </div>
                         </div>
                     </div>
-
+        
                     <div class="col-12 col-md-6 mb-5">
                         <div class="album__track d-flex justify-content-start">
-                            <div class="album__track-number d-flex justify-content-center align-items-center">
-                                <p>10</p>
-                            </div>
+                            <div class="album__track-number d-flex justify-content-center align-items-center"><p>10</p></div>
                             <div class="">
                                 <div class="album__track-name">Curve D3</div>
-                                <div class="album__track-misc">Autors: <span>irony, fly</span> <br> Create date:
-                                    <span>2001</span></div>
+                                <div class="album__track-misc">Autors: <span>irony, fly</span> <br> Create date: <span>2001</span></div>
                             </div>
                         </div>
                     </div>
-
+        
                     <div class="col-12 col-md-6 mb-5">
                         <div class="album__track d-flex justify-content-start">
-                            <div class="album__track-number d-flex justify-content-center align-items-center">
-                                <p>11</p>
-                            </div>
+                            <div class="album__track-number d-flex justify-content-center align-items-center"><p>11</p></div>
                             <div class="">
                                 <div class="album__track-name">D3 Fingerprint</div>
-                                <div class="album__track-misc">Autors: <span>irony</span> <br> Create date:
-                                    <span>2002</span></div>
+                                <div class="album__track-misc">Autors: <span>irony</span> <br> Create date: <span>2002</span></div>
                             </div>
                         </div>
                     </div>
-
+        
                     <div class="col-12 col-md-6 mb-5">
                         <div class="album__track d-flex justify-content-start">
-                            <div class="album__track-number d-flex justify-content-center align-items-center">
-                                <p>12</p>
-                            </div>
+                            <div class="album__track-number d-flex justify-content-center align-items-center"><p>12</p></div>
                             <div class="">
                                 <div class="album__track-name">Beach song</div>
-                                <div class="album__track-misc">Autors: <span>irony, fly</span> <br> Create date:
-                                    <span>2002</span></div>
+                                <div class="album__track-misc">Autors: <span>irony, fly</span> <br> Create date: <span>2002</span></div>
                             </div>
                         </div>
                     </div>
-
+        
                     <div class="col-12 col-md-6 mb-5">
                         <div class="album__track d-flex justify-content-start">
-                            <div class="album__track-number d-flex justify-content-center align-items-center">
-                                <p>13</p>
-                            </div>
+                            <div class="album__track-number d-flex justify-content-center align-items-center"><p>13</p></div>
                             <div class="">
                                 <div class="album__track-name">Chaos</div>
-                                <div class="album__track-misc">Autors: <span>irony, fly, vini</span> <br> Create date:
-                                    <span>2001</span></div>
+                                <div class="album__track-misc">Autors: <span>irony, fly, vini</span> <br> Create date: <span>2001</span></div>
                             </div>
                         </div>
                     </div>
-
+        
                     <div class="col-12 col-md-6 mb-5">
                         <div class="album__track d-flex justify-content-start">
-                            <div class="album__track-number d-flex justify-content-center align-items-center">
-                                <p>14</p>
-                            </div>
+                            <div class="album__track-number d-flex justify-content-center align-items-center"><p>14</p></div>
                             <div class="">
                                 <div class="album__track-name">Labour</div>
-                                <div class="album__track-misc">Autors: <span>irony</span> <br> Create date:
-                                    <span>2002</span></div>
+                                <div class="album__track-misc">Autors: <span>irony</span> <br> Create date: <span>2002</span></div>
                             </div>
                         </div>
                     </div>
-
-
+        
+        
                 </div>
-
+        
             </div>
         </section>
     </main>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-md-12 col-lg-2 footer__logo">
-                    <div>
-                        <a href="/"><img src="assets/images/d3logo.svg" alt="D3 Misty Project"></a>
-                    </div>
-                    <div class="albums__year mt-5">Music band from Baku, Azerbaijan.<br>Since 2000.</div>
-                </div>
-
-                <div class="col-md-12 col-lg-10 footer__right justify-content-end">
-                    <p class="footer__right-title">listen us</p>
-                    <div class="footer__listen">
-                        <a target="_blank"
-                            href="https://open.spotify.com/artist/2vWgHz2zsb6NRM5x1mOgXR?si=Xi23NATkS3urVkf6_tIByw"
-                            class="footer__card mt-3 text-center">
-                            <img src="assets/images/footer/01.svg" alt="Spotify">
-                            <p class="mt-3">Spotify</p>
-                        </a>
-                        <a target="_blank" href="https://www.youtube.com/@D3MistyProject"
-                            class="footer__card mt-3 text-center">
-                            <img src="assets/images/footer/02.svg" alt="Youtube">
-                            <p class="mt-3">Youtube</p>
-                        </a>
-                        <a target="_blank" href="https://deezer.page.link/ZDCvpkvbz81E1kCx6"
-                            class="footer__card mt-3 text-center">
-                            <img src="assets/images/footer/03.svg" alt="Deezer">
-                            <p class="mt-3">Deezer</p>
-                        </a>
-                        <a target="_blank" href="https://soundcloud.com/d3mistyproject"
-                            class="footer__card mt-3 text-center">
-                            <img src="assets/images/footer/04.svg" alt="SoundCloud">
-                            <p class="mt-3">SoundCloud</p>
-                        </a>
-                        <a target="_blank" href="https://music.apple.com/us/artist/d3-misty-project/1567049001"
-                            class="footer__card mt-3 text-center">
-                            <img src="assets/images/footer/05.svg" alt="Apple">
-                            <p class="mt-3">Apple</p>
-                        </a>
-                        <a target="_blank" href="https://music.amazon.com/artists/B094Q8SR3B/d3-misty-project"
-                            class="footer__card mt-3 text-center">
-                            <img src="assets/images/footer/06.svg" alt="Amazon">
-                            <p class="mt-3">Amazon</p>
-                        </a>
-                    </div>
-
-                    <p class="footer__right-title mt-4">listen us</p>
-
-                    <div class="d-flex justify-content-end">
-                        <div class="p-2">
-                            <a target="_blank" href="https://www.facebook.com/d3mistyproject"
-                                class="footer__social"><img src="assets/images/footer/fb.svg" alt="Facebook"></a>
+    
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    
+                        <div class="col-md-12 col-lg-2 footer__logo">
+                            <div>
+                                <a href="/"><img src="/assets/images/d3logo.svg" alt="D3 Misty Project"></a>
+                            </div>
+                            <div class="albums__year mt-5">Music band from Baku, Azerbaijan.<br>Since 2000.</div>
                         </div>
-                        <div class="p-2">
-                            <a target="_blank" href="https://instagram.com/d3mistyproject" class="footer__social"><img
-                                    src="assets/images/footer/ig.svg" alt="Instagram"></a>
+            
+                        <div class="col-md-12 col-lg-10 footer__right justify-content-end">
+                            <p class="footer__right-title">listen us</p>
+                            <div class="footer__listen">
+                                <a target="_blank" href="https://open.spotify.com/artist/2vWgHz2zsb6NRM5x1mOgXR?si=Xi23NATkS3urVkf6_tIByw" class="footer__card mt-3 text-center">
+                                    <img src="assets/images/footer/01.svg" alt="Spotify">
+                                    <p class="mt-3">Spotify</p>
+                                </a>
+                                <a target="_blank" href="https://www.youtube.com/@D3MistyProject" class="footer__card mt-3 text-center">
+                                    <img src="assets/images/footer/02.svg" alt="Youtube">
+                                    <p class="mt-3">Youtube</p>
+                                </a>
+                                <a target="_blank" href="https://deezer.page.link/ZDCvpkvbz81E1kCx6" class="footer__card mt-3 text-center">
+                                    <img src="assets/images/footer/03.svg" alt="Deezer">
+                                    <p class="mt-3">Deezer</p>
+                                </a>
+                                <a target="_blank" href="https://soundcloud.com/d3mistyproject" class="footer__card mt-3 text-center">
+                                    <img src="assets/images/footer/04.svg" alt="SoundCloud">
+                                    <p class="mt-3">SoundCloud</p>
+                                </a>
+                                <a target="_blank" href="https://music.apple.com/us/artist/d3-misty-project/1567049001" class="footer__card mt-3 text-center">
+                                    <img src="assets/images/footer/05.svg" alt="Apple">
+                                    <p class="mt-3">Apple</p>
+                                </a>
+                                <a target="_blank" href="https://music.amazon.com/artists/B094Q8SR3B/d3-misty-project" class="footer__card mt-3 text-center">
+                                    <img src="assets/images/footer/06.svg" alt="Amazon">
+                                    <p class="mt-3">Amazon</p>
+                                </a>
+                            </div>
+            
+                            <p class="footer__right-title mt-4">Follow us</p>
+            
+                            <div class="d-flex justify-content-end">
+                                <div class="p-2">
+                                    <a target="_blank" href="https://www.facebook.com/d3mistyproject" class="footer__social"><img src="assets/images/footer/fb.svg" alt="Facebook"></a>
+                                </div>
+                                <div class="p-2">
+                                    <a target="_blank" href="https://instagram.com/d3mistyproject" class="footer__social"><img src="assets/images/footer/ig.svg" alt="Instagram"></a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
+                    
                 </div>
-
+                
             </div>
-
-        </div>
-    </footer>
+        </footer>
 
 
 
     <script src="assets/js/app.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    
 </body>
-
 </html>

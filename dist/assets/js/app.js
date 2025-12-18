@@ -1,1 +1,1 @@
-document.addEventListener("DOMContentLoaded",(function(){window.onscroll=function(){var o=document.getElementById("navbar");window.scrollY>100?o.classList.add("scrolled"):o.classList.remove("scrolled")}})),console.log("file 2");
+document.addEventListener("DOMContentLoaded",(()=>{const e=document.getElementById("navbar");window.addEventListener("scroll",(()=>{window.scrollY>100?e.classList.add("scrolled"):e.classList.remove("scrolled")}))}));
